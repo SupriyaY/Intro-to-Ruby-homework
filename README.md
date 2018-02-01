@@ -5,19 +5,21 @@ Please answer the following questions in the spaces provided.
 
 How do you write an if statement in Ruby?
 An example of an if statement would be the following :
+# your here answer:
 number = 10
 if (number === 10)
 puts ("Its a 10!")
 end
-# It's a 10!
-# nil => nil
+It's a 10!
+nil => nil
   
 Please write code that would take the string "007", reverse it, and return the integer 700.
-answer: 
+# your answer here: 
 n = "007".reverse
 puts n.to_i
 
 Please write code that takes the array [23,56,3,7], sorts it, and then reverses that sorted array 'in place' (i.e. modifying the original array, rather than returning a new array).
+# your answer here
 array = [23, 56, 3, 7]
 array.sort.reverse
 
